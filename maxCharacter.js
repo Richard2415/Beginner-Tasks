@@ -1,4 +1,6 @@
-//Method 1:
+//Write a program to find the character that is most common in the string
+
+// Method 1:
 const maxChar = (str) => {
     let obj = {};
     for (let char of str)
@@ -8,7 +10,7 @@ const maxChar = (str) => {
 
 maxChar('richardselvaraj');
 
-//Method 2:
+// Method 2:
 function maxCharacter(str) {
     const charMap = {};
     str.split('').forEach((char) => {
@@ -22,3 +24,5 @@ function maxCharacter(str) {
 }
 
 maxCharacter('richardselvaraj');
+
+
