@@ -1,7 +1,26 @@
 // Task: console.log(start)
 //       console.log(stop) (stop should be printed after 5sec)
 
-//Method 1
+
+//Method 1:
+function first() {
+    console.log('Start');
+}
+
+function second() {
+    console.log('Stop');
+}
+
+let interval = async () => {
+    first();
+    await setTimeout(second, 2000)
+}
+
+interval();
+
+
+
+//Method 2:
 const response = () => {
     console.log('Start');
     setTimeout(() => {
@@ -11,7 +30,7 @@ const response = () => {
 }
 response();
 
-//Method 2
+//Method 3:
 let promise = new Promise((resolve, reject) => {
     console.log('Start');
 
