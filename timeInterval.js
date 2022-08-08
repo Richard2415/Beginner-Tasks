@@ -1,5 +1,5 @@
 // Task: console.log(start)
-//       console.log(stop) (stop should be printed after 5sec)
+//       console.log(stop) (stop should be printed after 2sec)
 
 
 //Method 1:
